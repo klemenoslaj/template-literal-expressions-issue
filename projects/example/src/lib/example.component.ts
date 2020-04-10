@@ -1,13 +1,13 @@
 import { Component, OnInit } from "@angular/core";
 
-export enum Example {
-  Value = "Title"
+enum Example {
+  Value
 }
 
 @Component({
   selector: "lib-example",
   template: `
-    <button [title]="'${Example.Value}'">Button</button>
+    ${Example.Value}
   `,
   styles: []
 })
