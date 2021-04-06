@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "reproduce": "ng build example --prod && ng serve"
+    "reproduce": "ng build example --prod && yarn ngcc && ng serve"
   },
   "private": true,
   "dependencies": {
